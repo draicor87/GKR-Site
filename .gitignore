@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+
+# Arquivos de configuração sensíveis
+*.env
+*.local
+
+# Arquivos do banco de dados
+*.sqlite3
+
+# Migrations (exceto o __init__.py que deve ser versionado)
+*/migrations/*
+!*/migrations/__init__.py
+
+# Arquivos de log
+*.log
+
+# Configurações do IDE
+.idea/
+.vscode/
+
+# Documentação
+docs/_build/
