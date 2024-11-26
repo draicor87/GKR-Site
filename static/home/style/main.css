@@ -1,0 +1,157 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+body {
+    background: rgb(255, 255, 255);    
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif, Times, serif;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+header .LogoGKR{
+    width: 300px;
+    height: auto;
+}
+
+/*Filme Principal*/
+.capa{
+    font-size:15px;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('../img/05hands-map.JPG');
+    height:500px;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    border-radius: 15px;
+}
+
+.capa .container{
+    width: 60%;
+}
+
+.capa .container .titulo{    
+    color: white;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif, Times, serif;
+}
+
+.capa .container .descricao{
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 15px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif, Times, serif;
+    text-align: justify;
+}
+
+.botao1{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 9%;
+    margin-right: 15px;
+    margin-left: 50%;
+    font-size: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover{
+    background-color: rgba(255, 60, 0, 0.918);
+    color: black;
+}
+
+.botao1 i{
+    margin-right: 10px;
+}
+
+.container .servicos{
+    margin-left: 30px;
+    color: #777575;
+    margin-top: 10px;
+}
+
+.box-produto{
+    height: 430px;
+    width: 327px;
+    display: block;
+    cursor: pointer;
+    border-radius:15px;    
+}
+
+.carrocel-produtos{
+    margin-top: 10px;
+}
+
+.item{
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif, Times, serif;
+    color: #e0dfdf;
+}
+
+.container .portfolio2{
+    margin-left: 30px;
+    color: #777575;
+    margin-top: 10px;
+}
+
+.portfolio3{
+    height: 300px;
+    width: 400px;
+    display: block;
+    cursor: pointer;
+    border-radius:15px;    
+}
+
+.container .siganos{
+    color: #777575;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container .botao2{
+    background-color: rgba(0,0,0,.80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao2:hover{
+    background-color: rgba(255, 60, 0, 0.918);
+    color: rgb(0, 0, 0);
+}
+
+.botao2 i{
+    margin-right: 10px;
+}
+
+.creditos{
+    margin-top: 15px;
+    color:#333333;
+    text-align: center;
+}

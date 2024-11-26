@@ -30,6 +30,14 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+import os
+
+# Define o diretório onde os arquivos estáticos estão localizados.
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')  # Onde você coloca seus arquivos estáticos.
+]
+
 INSTALLED_APPS = [   
     'apps.home.apps.HomeConfig', 
     'django.contrib.admin',
