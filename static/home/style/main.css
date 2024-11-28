@@ -37,7 +37,7 @@ header .LogoGKR{
     display:flex;
     flex-direction: column;
     justify-content:flex-start;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 15px;
 }
 
@@ -66,14 +66,14 @@ header .LogoGKR{
     background-color: rgba(0,0,0,.50);
     border: none;
     border-radius: 10px;
+    margin-top: 2%;
     color: white;
     padding: 10px 30px;
-    margin-top: 9%;
-    margin-right: 15px;
-    margin-left: 50%;
-    font-size: 5px;
+    font-size: 0.6rem; /* Ajuste o tamanho da fonte para 1rem */
     cursor: pointer;
     transition: .3s ease all;
+    display: flex; /* Usando flexbox para alinhar ícone e texto */
+    align-items: center; /* Centraliza verticalmente o conteúdo do botão */
 }
 
 .botao1:hover{
