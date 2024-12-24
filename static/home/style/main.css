@@ -28,7 +28,7 @@ header .LogoGKR{
     height: auto;
 }
 
-/*Filme Principal*/
+/*Principal*/
 .capa{
     font-size:15px;
     background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url('../img/05hands-map.JPG');
@@ -108,20 +108,14 @@ header .LogoGKR{
     color: #e0dfdf;
 }
 
-.container .portfolio2{
-    margin-left: 30px;
-    color: #777575;
+/*Espaçamento entre seções*/
+.container .espacamento{
+    color: #ffffff;
     margin-top: 10px;
+    margin-left: 30px;
 }
 
-.portfolio3{
-    height: 300px;
-    width: 400px;
-    display: block;
-    cursor: pointer;
-    border-radius:15px;    
-}
-
+/*Siga-nos*/
 .container .siganos{
     color: #777575;
     margin-top: 10px;
